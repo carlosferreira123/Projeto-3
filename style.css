@@ -1,5 +1,5 @@
 body {
-    background-color: #00081d;
+    background-color: #000102;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1300px;
@@ -88,20 +88,15 @@ input{
     font-size: 15px;
 }
 
-footer {
-    font-size: 18px;
-    margin: 150px;
-    padding: 3px;
-    border-radius: 10px;
-    text-align: center;
+
         
-}
+
 .box-container {
-    width: 98%;
-    height: 800px;
+    width: 100%;
+    height: 60%;
     margin: 0 auto;
     margin-top: 100px;
-    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40931 103.96%);;
+    background: linear-gradient(333.52deg, #000000 24.58%, #000102 84.55%, #090de4 95.90%);;
     border-radius: 10px;
 
 
@@ -114,15 +109,31 @@ footer {
 
 }
 .box-title {
-    font-size: 30px;
+    font-size: 48px;
+    font-weight: 800px;
 }
 .subtitle-main {
     font-size: 20px;
 }
 
 .img2 {
-    padding: 30px;
+    
     width: 700px;
     height: 350px;
     
+}
+.shadow{
+    width: 90%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.562);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.img4 {
+    width: 400px;
 }
