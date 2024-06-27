@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: #00081d;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -57,6 +57,9 @@ p {
 }
 img {
     width: 250px;
+    border-radius: 20px;
+    
+    
 }
 
 form {
@@ -83,4 +86,43 @@ input{
     border-radius: 20px;
     border: none;
     font-size: 15px;
+}
+
+footer {
+    font-size: 18px;
+    margin: 150px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+        
+}
+.box-container {
+    width: 98%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40931 103.96%);;
+    border-radius: 10px;
+
+
+}
+.box-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 55px;
+
+}
+.box-title {
+    font-size: 30px;
+}
+.subtitle-main {
+    font-size: 20px;
+}
+
+.img2 {
+    padding: 30px;
+    width: 700px;
+    height: 350px;
+    
 }
