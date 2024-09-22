@@ -137,3 +137,10 @@ input{
 .img4 {
     width: 400px;
 }
+
+
+ @media (max-width: 768px) {
+      html {
+        font-size: 87.5%;
+      }    
+ }
